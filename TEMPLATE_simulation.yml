@@ -15,7 +15,7 @@ HPCmachine:
   cores: INSERT
 
 physics:
-  shot_number: INSERT reference shot number for the modeling
+  shot_number: INSERT reference shot number for the modeling connected to the experiment 
   geometry: INSERT (i.e. NT, shelf, baffle, etc.)
   transport_model: INSERT
   boundary_conditions: INSERT
@@ -42,13 +42,6 @@ summary:
   main_findings: INSERT short description of the main findings
   notes: INSERT additional comments, known numerical issues, useful information for reproduce the runs
 
-experimental data: 
-  shot_number: INSERT
-  device : INSERT
-  campaign : INSERT
-  date : INSERT 
-  set_diagnostics : INSERT list of the diagnostic available
-  data_source : INSERT storage path to data at the facility cluster
   
   
 
