@@ -1,1 +1,12 @@
-experiments_id: 
+experimental data: 
+  shot_number: INSERT
+  device : INSERT
+  campaign : INSERT
+  date : INSERT 
+  set_diagnostics : INSERT list of the diagnostic available
+  data_source : INSERT storage path to data at the facility cluster
+
+summary:
+  main_findings: INSERT short description of the main findings
+  notes: INSERT additional comments, useful information relative to the pulse/conditions
+
