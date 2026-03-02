@@ -1,0 +1,54 @@
+simulation_id: nothing to parse, I will seed a number. 
+title: INSERT short descriptive title of the case
+author: INSERT
+date: INSERT year
+
+code: 
+  code_name: INSERT
+  version: INSERT (do git rev-parse HEAD)
+  branch: INSERT
+  any_local_changes: INSERT if you made any. 
+
+HPCmachine: 
+  cluster: INSERT where you ran the case
+  nodes: INSERT
+  cores: INSERT
+
+physics:
+  shot_number: INSERT reference shot number for the modeling
+  geometry: INSERT (i.e. NT, shelf, baffle, etc.)
+  transport_model: INSERT
+  boundary_conditions: INSERT
+  impurities : INSERT 
+  sources : INSERT
+
+numerics:
+  grid_resolution: INSERT (i.e. Npsi x Ntheta x Nphi)
+  timestep: INSERT [ms]
+  simulated_plasma_time: INSERT [ms]
+  solver : INSERT
+
+restart:
+  restart_available: INSERT true or false
+  restart_path: INSERT /lustre/isaac24/proj/UTK0325/Casali_Shared_SIMS_DB/Ex_SIMID
+  restart_plasma_file: INSERT /lustre/isaac24/proj/UTK0325/Casali_Shared_SIMS_DB/Ex_SIMID/restart_plasma_file
+  job_submissions_scripts : INSERT /lustre/isaac24/proj/UTK0325/Casali_Shared_SIMS_DB/Ex_SIMID/job_sub_scripts
+  mesh_files : INSERT /lustre/isaac24/proj/UTK0325/Casali_Shared_SIMS_DB/Ex_SIMID/mesh/
+data_location_paths:
+  full_case_directory: INSERT the original source directory where you ran the case
+  postprocessed_results: INSERT /lustre/isaac24/proj/UTK0325/Casali_Shared_SIMS_DB/Ex_SIMID/postprocessing/
+
+summary:
+  main_findings: INSERT short description of the main findings
+  notes: INSERT additional comments, known numerical issues, useful information for reproduce the runs
+
+experimental data: 
+  shot_number: INSERT
+  device : INSERT
+  campaign : INSERT
+  date : INSERT 
+  set_diagnostics : INSERT list of the diagnostic available
+  data_source : INSERT storage path to data at the facility cluster
+  
+  
+
